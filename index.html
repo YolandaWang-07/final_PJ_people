@@ -111,38 +111,54 @@
         align-items: center;
         justify-content: center;
       }
-
-      .LT_RI {
-        display: flex;
-        align-items: center;
-      }
-
-      .LT_RI .text {
-        padding: 0 40px;
-        width: 45%;
-      }
-      .LT_RI .text p {
-        margin: 10px 0;
-      }
-
-      .LT_RI .image {
-        width: 55%;
-      }
-
-      .LT_RI .image img {
-        padding: 2px 0;
-        width: 100%;
-        aspect-ratio: 4/2.6;
-      }
-
+      
       .top_bottom_b {
-        margin-top: 50px;
+        margin-top: 180px;
         margin-bottom: 50px;
       }
 
       .left_right_b {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 90px;
+        margin-right: 70px;
+      }
+
+      .LR_TI {
+        display: flex;
+        align-items: center;
+      }
+
+      .LR_TI .text {
+        padding: 0 40px;
+        width: 45%;
+      }
+      .LR_TI .text p {
+        margin: 10px 0;
+      }
+
+      .LR_TI .image {
+        width: 55%;
+      }
+
+      .LR_TI .image img {
+        padding: 2px 0;
+        width: 100%;
+        aspect-ratio: 4/2.6;
+      }
+      .UD_TI .image {
+        width: 55%;
+        display: flex;
+        text-align: center;
+
+      }
+      
+      .UD_TI .image img {
+        width: 70%;
+        aspect-ratio: 2/2.8;
+        padding: 0 2px;
+      }
+      
+      .UD_TI .text p {
+        text-align: center;
       }
       
     </style>
@@ -176,7 +192,7 @@
       <h2>people in xizang</h2>
     </div>
 
-    <div class="LT_RI">
+    <div class="LR_TI">
       <div class="text">
         <h3>Lama's daily life</h3>
         <p>Lama is a Tibetan word meaning "guru". They are the important role in Tibetan Buddhism.</p>
@@ -186,13 +202,27 @@
       </div>
 
       <div class="image">
-        <img src="peoxizang_1.JPG" alt="description of image">
+        <img src="peoxizang_1.JPG" alt="lama1">
 
-        <img src="peoxizang_2.JPEG" alt="description of image">
+        <img src="peoxizang_2.JPEG" alt="lama2">
       </div>
-
     </div>
+  
+    <div class="UD_TI">
+        <div class="image top_bottom_b left_right_b">
+        <img src="peoxizang_3.JPEG" alt="person on the street">
 
+        <img src="peoxizang_4.JPEG" alt="person on the street">
+      </div>
+      
+      <div class="text">
+        <p>People on the street</p>
+        <center>
+          <p>July, 2021 <br> Bakuo Street, Lasa, China</p>
+        </center>
+      </div>
+      
+    </div>
 
 
   </body>
